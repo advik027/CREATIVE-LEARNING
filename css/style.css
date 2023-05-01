@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
@@ -7,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
 @font-face {
     font-family: "Righteous";
     src: url("../fonts/Poppins-Black.ttf");
@@ -119,7 +118,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
-    text-decoration: none!important;
+    text-decoration: none !important;
     opacity: 1
 }
 
@@ -231,7 +230,9 @@ button {
 
 .logo {
     width: 20%;
+    font-size: xx-large;
 }
+
 .header_section {
     width: 100%;
     float: left;
@@ -242,9 +243,10 @@ button {
     padding-top: 20px;
 }
 
-.header_bg{
+.header_bg {
     background-color: #e7e7f6;
 }
+
 .bg-light {
     background-color: transparent !important;
 }
@@ -331,6 +333,7 @@ button {
     color: #f7f7fd;
     font-weight: bold;
 }
+
 .banner_text {
     width: 100%;
     float: left;
@@ -365,6 +368,7 @@ button {
     color: #000;
     background-color: #fcce2d;
 }
+
 .about_bt.active a {
     color: #000;
     background-color: #fcce2d;
@@ -405,6 +409,7 @@ button {
     right: 20px;
     top: 20%;
 }
+
 #my_slider .carousel-control-prev,
 #my_slider .carousel-control-next {
     width: 65px;
@@ -435,11 +440,13 @@ button {
     width: 100%;
     float: left;
 }
+
 .services_section_2 {
     width: 100%;
     float: left;
 }
-.services_taital{
+
+.services_taital {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -447,6 +454,7 @@ button {
     text-align: center;
     font-weight: bold;
 }
+
 .services_taital::after {
     content: '';
     position: relative;
@@ -476,7 +484,8 @@ button {
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
+    height: 300px;
+
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -500,6 +509,7 @@ button {
 .image_main:hover .text_main {
     opacity: 5;
 }
+
 .image_main:hover .seemore_text {
     color: #ffffff;
 }
@@ -543,19 +553,20 @@ button {
 
 /* news section start */
 
-.news_section{
+.news_section {
     width: 100%;
     float: left;
 }
 
-.news_taital{
+.news_taital {
     width: 100%;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     color: #1d1d1d;
 }
-.news_text{
+
+.news_text {
     width: 100%;
     font-size: 16px;
     text-align: center;
@@ -564,7 +575,7 @@ button {
     font-family: 'Open Sans', sans-serif;
 }
 
-.news_section_2{
+.news_section_2 {
     width: 100%;
     float: left;
     padding-top: 90px;
@@ -577,7 +588,7 @@ button {
     margin-top: 23px;
 }
 
-.date_text{
+.date_text {
     width: 100%;
     font-size: 14px;
     color: #a6a6a6;
@@ -592,7 +603,7 @@ button {
     font-weight: 600;
 }
 
-.lorem_text{
+.lorem_text {
     width: 100%;
     font-size: 16px;
     color: #7d7d7d;
@@ -607,25 +618,10 @@ button {
     padding-top: 15px;
     position: relative;
 }
-.plus_text {
-    width: 50px;
-    height: 50px;
-    background-color: #fcce2d;
-    color: #ffffff;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 100%;
-    padding: 28px;
-    position: absolute;
-    bottom: 150px;
-    left: -10px;
-}
 
 
-.image_6{
+
+.image_6 {
     width: 100%;
     float: left;
 }
@@ -640,7 +636,7 @@ button {
     padding-bottom: 90px;
 }
 
-.blog_section_2{
+.blog_section_2 {
     width: 100%;
     border: 2px solid #000;
     padding: 20px;
@@ -656,22 +652,23 @@ button {
     padding-top: 100px;
 }
 
-.ipsum_text{
+.ipsum_text {
     width: 100%;
     font-size: 16px;
     color: #111111;
     margin: 0px;
 }
 
-.image_7{
+.image_7 {
     width: 100%;
 }
 
-.read_bt{
+.read_bt {
     width: 170px;
     float: left;
     margin-top: 50px;
 }
+
 .read_bt a {
     width: 100%;
     float: left;
@@ -682,14 +679,15 @@ button {
     padding: 14px;
     border-radius: 40px;
 }
-.read_bt a:hover{
+
+.read_bt a:hover {
     color: #ffffff;
     background-color: #000;
 }
 
 /* client section start */
 
-.client_section{
+.client_section {
     width: 100%;
     float: left;
     background-color: #111111;
@@ -697,7 +695,7 @@ button {
     padding: 90px;
 }
 
-.client_taital{
+.client_taital {
     width: 100%;
     font-size: 40px;
     font-weight: bold;
@@ -725,7 +723,7 @@ button {
     display: flex;
 }
 
-.client_left{
+.client_left {
     width: 30%;
     padding: 50px 0px 0px 40px;
 }
@@ -738,6 +736,7 @@ button {
 .client_img {
     width: 100%;
 }
+
 .client_text {
     width: 100%;
     float: left;
@@ -747,6 +746,7 @@ button {
     padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
 }
+
 .client_name {
     width: 100%;
     float: left;
@@ -801,12 +801,12 @@ button {
 
 /* newsletter section start */
 
-.newsletter_section{
+.newsletter_section {
     width: 100%;
     float: left;
 }
 
-.newsletter_main{
+.newsletter_main {
     width: 100%;
     display: flex;
 }
@@ -825,6 +825,7 @@ button {
     float: right;
     margin-top: 30px;
 }
+
 .get_quote_bt a {
     width: 100%;
     float: left;
@@ -835,11 +836,13 @@ button {
     padding: 14px;
     border-radius: 40px;
 }
+
 .get_quote_bt a:hover {
     color: #ffffff;
     background-color: #fcce2d;
 }
-.dolor_text{
+
+.dolor_text {
     width: 100%;
     float: left;
     font-size: 16px;
@@ -867,7 +870,7 @@ button {
     padding: 100px 100px;
 }
 
-.padding_left0{
+.padding_left0 {
     padding-left: 0px;
 }
 
@@ -933,13 +936,14 @@ button {
     text-transform: uppercase;
     border-radius: 40px;
 }
+
 .subscribe_bt a:hover {
     color: #000;
     background-color: #ffffff;
 }
 
 
-.margin_top{
+.margin_top {
     margin-top: 90px;
 }
 
@@ -954,6 +958,7 @@ button {
 .call_text a {
     color: #ffffff;
 }
+
 .call_text a:hover {
     color: #fcce2d;
 }
@@ -987,10 +992,11 @@ button {
     padding: 12px 0px;
 }
 
-.footer_menu li a{
+.footer_menu li a {
     color: #ffffff;
 }
-.footer_menu li a:hover{
+
+.footer_menu li a:hover {
     color: #fcce2d;
 }
 
@@ -1017,6 +1023,7 @@ button {
     border-left: 1px solid #ffffff;
     padding-left: 50px;
 }
+
 /* footer section end */
 
 
@@ -1055,79 +1062,103 @@ button {
     right: 1170px;
 }
 
-.class11maths{
+.class11maths {
 
     position: absolute;
     top: 1000px;
     left: 50px;
     width: 100%;
 }
-.class11ic{
+
+.class11ic {
 
     position: absolute;
     top: 00px;
     left: 280px;
     width: 100%;
-   
+
 }
-.class11ph{
+
+.class11ph {
 
     position: absolute;
     top: 0px;
     left: 280px;
     width: 100%;
 }
-.class11oc{
+
+.class11oc {
 
     position: absolute;
     top: 00px;
     width: 100%;
-    left: 280px ;
+    left: 280px;
 }
 
-.class11phc{
+.class11phc {
 
     position: absolute;
-    top:00px;
+    top: 00px;
     left: 280px;
     width: 100%;
 }
 
 
 
-.class12maths{
+.class12maths {
 
     position: absolute;
     top: 1000px;
     left: 50px;
     width: 100%;
 }
-.class12ic{
+
+.class12ic {
 
     position: absolute;
     top: 00px;
     left: 280px;
     width: 100%;
-   
+
 }
-.class12ph{
+
+.class12ph {
 
     position: absolute;
     top: 0px;
     left: 280px;
     width: 100%;
 }
-.class12oc{
+
+.class12oc {
 
     position: absolute;
     top: 00px;
     width: 100%;
-    left: 280px ;
+    left: 280px;
 }
-.class12phc{
+
+.class12phc {
 
     position: absolute;
-    top:00px;
+    top: 00px;
     left: 280px;
     width: 100%;
+}
+
+.copyright_section1{
+    width: 100%;
+    float: left;
+    background-color: #f7f6f6;
+    height: auto;
+   
+}
+.copyright_text1 {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    margin-left: 0px;
+    color: #131313;
+    text-align: center;
+    
 }
