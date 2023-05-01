@@ -1062,34 +1062,178 @@ button {
     right: 1170px;
 }
 
-.class11maths {
+.mc1{
+
+     
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #eb0505;
+    color: #141415;
+   position: relative;
+   left: 275px;
+   top: 150px;
 
 
 }
+    .mc1:hover  {
+        border-color: #f6f7f5;
+        background: #4cfa02;
+    }
 
-.class11ic {
+.mc2{
 
-   
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #eb0505;
+    color: #141415;
+   position: relative;
+   left: 123px;
+   top: 150px;
+
 
 }
+    .mc2:hover  {
+        border-color: #f6f7f5;
+        background: #4cfa02;
+    }
 
-.class11ph {
+.mc3{
+
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #eb0505;
+    color: #141415;
+   position: relative;
+   left: 450px;
+   top: 150px;
+
+
+}
+    .mc3:hover  {
+        border-color: #f6f7f5;
+        background: #4cfa02;
+    }
+
+.maths{
+
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+    
+.phcs
+{
+position: relative;
+top: 285px;
+left: 30px;
+font-weight: bolder;
+ font-size: xxx-large;
+}
+.pcc1{
+
+     
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #eb0505;
+    color: #141415;
+   position: relative;
+   left: 80px;
+   top: 305px;
+
+
+}
+    .pcc1:hover  {
+        border-color: #f6f7f5;
+        background: #4cfa02;
+    }
+
+.pcc2{
+
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #eb0505;
+    color: #141415;
+   position: relative;
+   left: 123px;
+   top: 305px;
+
+
+}
+    .pcc2:hover  {
+        border-color: #f6f7f5;
+        background: #4cfa02;
+    }
+
+.pcc3{
+
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #000000;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #eb0505;
+    color: #141415;
+   position: relative;
+   left: 170px;
+   top: 305px;
+
+
+}
+    .pcc3:hover  {
+        border-color: #f6f7f5;
+        background: #4cfa02;
+    }
+
 
     
-
-.classoc{   
- 
-
-
-}
-
-.class11phc {
-
-    
-}
-
-
-
 
 
 .copyright_section1{
@@ -1106,5 +1250,4 @@ button {
     margin-left: 0px;
     color: #131313;
     text-align: center;
-    
 }
